@@ -1,6 +1,6 @@
-const mongoose = require('mongoose');
-const host = process.env.DB_HOST || '127.0.0.1';
-const dbURI = `mongodb://${host}/travlr`;
+const mongoose = require('mongoose'); 
+const host = process.env.DB_HOST || '127.0.0.1'; 
+const dbURI = `mongodb://${host}/travlr`; 
 
 const readLine = require('readline'); 
  
@@ -67,4 +67,4 @@ connect();
 
 // Import Mongoose schema 
 require('./travlr'); 
-module.exports = mongoose;
+module.exports = mongoose;  
