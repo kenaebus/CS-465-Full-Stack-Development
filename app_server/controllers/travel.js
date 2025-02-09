@@ -6,8 +6,8 @@ const options = {
     } 
 } 
 
-// var fs = require('fs'); 
-// var trips = JSON.parse(fs.readFileSync('./data/trips.json','utf8')); 
+var fs = require('fs'); 
+var trips = JSON.parse(fs.readFileSync('./data/trips.json','utf8')); 
 
 const travel = async function (req, res, next) {
     // console.log('TRAVEL CONTROLLER BEGIN)
