@@ -4,6 +4,6 @@ import { TripListingComponent } from './trip-listing/trip-listing.component';
 
 export const routes: Routes = [
     { path: 'add-trip', component: AddTripComponent },
-    { path: '', component: TripListingComponent, pathMatch: 'full' }
+    { path: '', component: TripListingComponent, pathMatch: 'full' },
     { path: '', component: TripListingComponent, pathMatch: 'full'}
 ];
